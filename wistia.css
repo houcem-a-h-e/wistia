@@ -1,0 +1,484 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#c896a5;  
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.nav-header{
+    background-color: #c896a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 20px;
+    color: white;
+}
+    /*.nav-header:hover {
+    background:white;
+    color: grey;
+}*/
+
+.flex-container {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.flex-container li {
+    padding: 1em 2em;
+    display: flex;
+    align-items: center;
+}
+
+.flex-container a {
+    text-decoration: none;
+    color: inherit;
+} 
+
+.flex-item a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#logo{
+    height: 33px;
+}
+.nav-header:hover {
+    background-color: white;
+    color: black;
+}
+
+/* .nav-header:hover .flex-container li {
+     color: black; 
+} */
+
+/* .nav-header:hover a {
+    color:black;
+    text-decoration: none;
+} */
+
+.hover-items a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    /* color: white; */
+}
+
+.nav-header:hover .flex-container .WistiaLogo g path{
+    /* height: 33px;
+    padding: 5px 10px 10px 25px;
+    width: 33px; */
+    fill:#3ea9f5;
+}
+
+.nav-header:hover #login {
+    border: 1px solid #d6dade;
+}
+
+
+#login:hover {
+    box-shadow: 0px 5px rgb(189, 189, 189);
+    position: relative;
+    top: -3px;
+}
+ .dropdown-div {
+      position: absolute;
+      background-color: white;
+      color:red;
+      display:none;
+      width: 100%;
+    top: 55px;
+    left: 0;
+    right: 0;
+    padding:20px;
+  } 
+   .dropdown-div a {
+      color:black;
+  } 
+  
+   .dropdown-items:hover .dropdown-div{
+    display:flex;
+    
+    } 
+
+.dropdown-list {
+     display: flex;
+    flex-direction: column;
+    width: 15%;
+    flex:1;
+    padding: 15px 5px 15px 20px;
+} 
+.hover-p {
+color: grey;
+margin-top:20px;
+}
+.dropdown-list a {
+    padding-bottom: 10px;
+}
+.dropdown-items h3{
+    color:grey;
+    font-size: 14px;
+    font-weight: 100;
+    padding-bottom: 10px;
+} 
+ #hover-part2 {
+    flex:2;
+    margin:25px;
+} 
+    #hover-part2 .hover-btn {
+    padding: 15px auto;
+    text-decoration:none;
+    color:white ;
+    padding: 10px;
+    background-color: #3ea9f5;
+    border-radius:5px;
+} 
+
+ #action-link {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    height:50px;
+ }
+  .action{
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    min-width: 100px;
+    text-align: center;
+    padding: 10px 20px;
+} 
+
+ #login {
+    background-color: white;
+    color: black;
+}
+ #get-started {
+    background-color:#3ea9f5;
+    color:white;
+ }
+ 
+
+.home-video-message{
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    padding: 100px 70px 0;
+}
+
+.home-message{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.video-message {
+    margin-bottom: 40px;
+    color: #363945;
+    font-size: 2.6em;
+    font-weight: 400;
+    max-width: 530px;
+}
+
+
+.watch-video {
+    text-decoration: none;
+    color: #363945;
+    background-color: #D4D4D4;
+    min-width: 150px;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    min-width: 200px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-software{
+    color:white;
+}
+
+.home-video {
+    width : 100%;
+    height: 100%;
+}
+
+.services {
+    display: flex;
+}
+.service-componenets {
+    display:flex;
+    flex-direction: column;
+    padding: 45px 58px 50px;
+    flex: 1;
+    width: 100px;
+    align-items: flex-start;
+}
+
+.hosting  {  
+    background-color: #FED24A;
+}
+.service-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 100%;
+    margin: 15px 0px 10px;
+    color:white;
+    height: 60px;
+    width: 334px
+}
+.Icon {
+    height: 55px;
+    width: 55px;
+}
+
+#hosting-description {
+    font-size: 20px;
+    height: 91px !important;
+    width:334px;
+    color:#2A2D35;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-right: 0px;
+}
+
+.learn-more {
+    text-decoration: underline;
+    color: #363945;
+}
+.action-in-service {
+    text-decoration: none;
+    /*height:60px;*/
+    color: inherit !important;
+    border: 2px solid white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.start-for-free, .explore-and-learn {
+    background-color: inherit ; 
+     border: none;
+     font-size: 18px;
+}
+
+
+ .action-in-service:hover {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.action-in-service:hover .services .service-componenets #scale g path {
+    fill:white;
+}
+
+.IconLaptop {
+height: 62px;
+width: 62px;    
+}
+
+.soapbox {
+    background-color: #51c29f;
+    
+}
+
+.video-skills { 
+    background-color: #3ea9f5;
+}
+
+.IconBookChapter {
+    height: 51px;
+    width:46px;
+}
+
+.wistia-clients {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 60px 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimony-text {
+    color: #9CA8B7;
+    max-width: 160px;
+
+}
+
+#moz {
+    width: 250px;
+    height:170px;
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
+.testimony-items2 {
+    width: 170px;
+    height:89px;
+}
+#zendesk {
+    width: 170px;
+    height:89px;  
+}
+#casper {
+    padding-left: 2px;
+    padding-right: 0px;
+}.news {
+    display: flex;
+    background-color: white;
+    width: 100%;
+   
+}
+.new-series {
+    display: flex;
+    background-color: white;
+    margin: 0 60px;
+}
+
+
+.news-part {
+    display:flex;
+    flex-direction: column;
+    padding: 80px 35px;
+background-color: white;
+
+}
+
+.news-header {
+    background-color: blue;
+    height: 242px;
+}
+.news-img {
+    width: 340px;
+    height: 242px;
+}
+.news-img:hover {
+    opacity: 0.5;
+}
+
+.part-header {
+    margin-top:20px;
+    margin-bottom: 20px; 
+}
+.news-p {
+   color: #2A2D35;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 20px;
+}
+
+.news-p2 {
+    padding-top: 20px;   
+}
+.service-terms {
+    text-align: center;
+    background-color: #efefef;
+    padding: 40px 25px;
+}
+.service-term-p {
+    text-align: center;
+    color: #777981;
+
+}
+
+.term-service {
+    color: #97a0ac;
+}
+
+.footer {
+    background-color: #2a2d35;
+    display:flex;
+    flex-direction: column;
+}
+.footer-top {
+display: flex;
+justify-content: flex-start;
+/*flex-direction:column; */
+}
+.footer-top-1 {
+    /* width:30%; */
+  /*  padding: 90px 60px 90px 70px;*/
+  padding: 70px 40px 70px 50px;
+}
+.promotion-p {
+    height: 117px;
+    width: 334px;
+    color:white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.follow-p {
+    color: white;
+    font-size: 16px;
+}
+.social-media {
+    color: #56BE8E;
+    margin-left: 2px;
+    text-decoration: none;
+}
+hr {
+    margin: 65px 60px 65px 20px;
+    border: 1px solid #B2B9C1;
+    opacity: .1;
+}
+.footer-top2 {
+    display:flex;
+    justify-content: space-between;
+    flex:1;
+}
+.footer-top2-components {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* width: 20%; */
+    align-items: flex-start;
+    padding-top: 70px;
+    margin: 0px 20px;
+}
+
+.h3-footer {
+color: #9CA8B7;
+font-size: 11px;
+font-weight: 800;
+padding:15px 0px;
+}
+.ul-footer {
+ display: flex;
+ flex-direction: column;
+ padding:0;
+}
+.li-footer {
+    list-style: none;
+    padding: 0px 0px 10px 0px;
+}
+.footer-link {
+    text-decoration: none;
+    color: #eeefef;
+    padding
+}
+
+.footer-bottom {
+    margin: 20px 0px;
+}
+
+.footer-p {
+    text-align: center;
+    color: #adb4bc;
+    padding: 40px 0px;
+    font-size: 16px;
+}
+.a-footer {
+    color: #adb4bc;
+}
